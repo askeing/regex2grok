@@ -1,3 +1,12 @@
+# My Python Settings
+venv
+.venv
+.env
+.env-*
+
+# PyCharm
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
