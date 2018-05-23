@@ -7,6 +7,8 @@ Simplify the steps from regex to grok format.
 Create virtualenv:
 ```bash
 $ virtualenv .env-python
+$ source .env-python/bin/activate
+(.env-python) $
 ```
 
 Install **regex2grok**:

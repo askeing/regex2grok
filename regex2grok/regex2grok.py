@@ -27,7 +27,7 @@ class Regex2Grok(object):
     }}
     """
 
-    RULE_TEMPLATE = '\tmatch => {{ "message" => "{regex}" }}'
+    RULE_TEMPLATE = '        match => {{ "message" => "{regex}" }}'
 
     def __init__(self, regex_rules_file, output_grok_template=None):
         self._validate(regex_rules_file)
