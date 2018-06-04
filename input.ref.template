@@ -1,3 +1,9 @@
+# hostname          ([\w\\\:\-\.\(\)]*)
+(?<=hostname=)(?<edr.hostname>([\w\\\:\-\.\(\)]*))(?=$|\s|\s\w+=)
+
+# hostip            ([\w\\\:\-\.]*)
+(?<=hostip=)(?<edr.hostip>([\w\\\:\-\.]*))(?=$|\s|\s\w+=)
+
 # cont. word        (\w*)
 (?<=activity=)(?<edr.activity>(\w*))(?=$|\s|\s\w+=)
 (?<=spid=)(?<edr.spid>(\w*))(?=$|\s|\s\w+=)
